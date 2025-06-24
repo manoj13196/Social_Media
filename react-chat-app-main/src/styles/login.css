@@ -1,0 +1,50 @@
+.logincont{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(4, 45, 82);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.loginform{
+height: 60vh;
+width: 30vw;
+border-radius: 10px;
+background-color: rgb(151, 180, 184)
+}
+.logintitle{
+    margin: 10px auto;
+    height: 8vh;
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 112, 160);
+    border-radius: 15px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.guest{
+    height: 5vh;
+    width: 10vw;
+}
+.sign-up,.login{
+    height: 30vh;
+    width: 20vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.opts input{
+    height: 5vh;
+    width: 15vw;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.opts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly   ;
+}

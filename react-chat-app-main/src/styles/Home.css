@@ -1,0 +1,76 @@
+.home-cont{
+height: 100vh;
+width: 100vw;
+display: flex;
+}
+.home-body{
+    height: 100vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.home-body-cont{
+        height: 90vh;
+    width: 85vw;
+    background-color: black;
+    
+    display: flex;
+    align-items: center;
+}
+.home-post-cont{
+    height: 90vh;
+    width: 50vw;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-chat{
+    height: 90vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    
+    border: 1px solid rgb(48, 48, 48);
+}
+.chat-title{
+    height: 10vh;
+    width: 30vw;
+    font-size: 0.8em;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+.chat-box{
+    height: 70vh;
+    width: 30vw;
+
+}
+
+.each-chat{
+    height: 10vh;
+    width: 29vw;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(37, 37, 37);
+    color: white;
+    margin-bottom: 10px;
+}
+
+.home-post-cont::-webkit-scrollbar {
+  width: 5px; /* Width of the vertical scrollbar */
+  height: 5px; /* Height of the horizontal scrollbar */
+}
+
+.home-post-cont::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+  border: 3px solid #fff; /* Optional: adds space around the thumb */
+}
+.home-post-cont::-webkit-scrollbar-track {
+  background-color: #000000; /* Track color */
+  border-radius: 2px;
+}

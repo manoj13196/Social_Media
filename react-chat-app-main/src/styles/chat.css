@@ -1,0 +1,125 @@
+.eachmsg {
+  max-width: 60%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  word-wrap: break-word;
+  background-color: #1e2a38;
+  color: #e6f0ff;
+}
+
+.chatlog {
+  height: 60vh;
+  overflow-y: auto;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.chatlog::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.chatlog::-webkit-scrollbar-thumb {
+  background-color: #3b82f6; /* blue thumb */
+  border-radius: 6px;
+  border: 2px solid #0f172a;
+}
+
+.chatlog::-webkit-scrollbar-track {
+  background-color: #1e293b; /* dark track */
+  border-radius: 2px;
+}
+
+.chat-cont {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0f172a;
+}
+
+.chat-body {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.other-users {
+  height: 90vh;
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  background-color: #1e293b;
+  color: #f1f5f9;
+}
+
+.curr-chat {
+  height: 90vh;
+  display: flex;
+  width: 45vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  color: #f8fafc;
+  border: 1px solid #334155;
+  background-color: #1e293b;
+}
+
+.typer {
+  height: 5vh;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.chat-input {
+  min-height: 10vh;
+  width: 30vw;
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  resize: none;
+  overflow-y: auto;
+  border-radius: 8px;
+  border: 1px solid #475569;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  outline: none;
+}
+
+.chat-logo {
+  height: 95vh;
+  width: 15vw;
+  background-color: #0f172a;
+}
+
+.ch-logo {
+  height: 10vh;
+  color: #60a5fa;
+  font-size: 1.3em;
+  font-family: "Winky Sans", sans-serif;
+}
+
+/* chattersssssssss */
+
+.chatter-cont {
+  height: 70vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  background-color: #1e293b;
+  color: #cbd5e1;
+}

@@ -1,0 +1,40 @@
+.comment-cont{
+    display: flex;
+    
+    height: 80vh;
+    width: 30vw;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.comment-title{
+    height: 5vh;
+    width: 30vw;
+    font-size: 1.3em;
+
+}
+.comment-body{
+    height: 67vh;
+    overflow-y: auto;
+}
+.each-coom{
+    min-height: 10vh;
+    width: 25vw;
+}
+.comment-board{
+    height: 10vh;
+    width: 25vw;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.comment-board input{
+    width: 20vw;
+    height: 8vh;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.comment-board button{
+    height: 5vh;
+    width: 5vw;
+}

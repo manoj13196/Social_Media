@@ -1,0 +1,83 @@
+.profile-cont{
+height: 100vh;
+width: 100vw;
+display: flex;
+background-color: black;
+}
+.profile-body{
+    height: 100vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.user-deto{
+    width: 85vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-prev-post{
+    height: 90vh;
+    width: 60vw;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-prev-post::-webkit-scrollbar {
+  width: 5px; /* Width of the vertical scrollbar */
+  height: 5px; /* Height of the horizontal scrollbar */
+}
+
+.user-prev-post::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+  border: 3px solid #fff; /* Optional: adds space around the thumb */
+}
+.user-prev-post::-webkit-scrollbar-track {
+  background-color: #000000; /* Track color */
+  border-radius: 2px;
+}
+/* userInfo.jsx */
+.user-info-box{
+    height: 80vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+background-color: aqua;
+border-radius: 10px;
+}
+.user-pic{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
+.user-details{
+    height: 15vh;
+    width: 20vw;
+}
+.user-other-details{
+    height: 35vh;
+    width: 20vw;
+}
+.username{
+height: 10vh;
+width: 20vw;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+}
+.username div{
+    height: 5vh;
+    width: 10vw;
+}

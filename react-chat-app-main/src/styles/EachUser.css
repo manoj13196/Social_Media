@@ -1,0 +1,11 @@
+.eachuser-cont{
+    height: 10vh;
+    width: 20vw;
+    border-radius: 10px;
+    border: 1px solid rgb(101, 101, 101);
+    margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}

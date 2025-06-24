@@ -1,0 +1,55 @@
+.postbox-cont {
+  min-height: 70vh;
+  width: 30vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+  color: white;
+}
+.post-user {
+  height: 10vh;
+  width: 30vw;
+  
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.post-content {
+  height: 50vh;
+  width: 30vw;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.post-content img{
+   height: 100%;
+   width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.post-share {
+  height: 10vh;
+  width: 30vw;
+  background-color: rgba(0, 0, 0 );
+  display: flex;
+}
+.all-share {
+  height: 10vh;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.each-share {
+  width: 10vh;
+}
+.user-det {
+  height: 10vh;
+  width: 12vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.user-logo {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 50%;
+  background-color: aqua;
+}
